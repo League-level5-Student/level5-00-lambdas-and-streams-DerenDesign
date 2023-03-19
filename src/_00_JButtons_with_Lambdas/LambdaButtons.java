@@ -17,7 +17,9 @@ public class LambdaButtons {
 		window.add(addNumbers);
 		window.add(randNumber);
 		window.add(tellAJoke);
-		
+		addNumbers.addActionListener(e -> System.out.println("Hi"));
+		randNumber.addActionListener(e -> System.out.println("Hi"));
+		tellAJoke.addActionListener(e -> System.out.println("Hi"));
 		//1. Call the addActionListener methods for each button. Use lambdas
 		//   to define to functionality of the buttons.
 		
